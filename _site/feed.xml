@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>William Harvey Designs</title>
+    <description>Designing engaging Mobile/Web UI/UX solutions for your users</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Mar 2021 15:13:49 -0700</pubDate>
+    <lastBuildDate>Sat, 27 Mar 2021 15:13:49 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>VARI 4000 App, by Guitar Center</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+UI/UX/Graphic Design - Project Management &amp;amp; Development
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/vari/VARIBanner.jpg&quot; alt=&quot;Vari4000&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Guitar Center approached me for the next stage of incorporating Touch Interfaces for their hardware products, this time for a PA speaker system. The goal was to provide a Mobile Touch interface to accompany their newest pro audio speaker line, the VARI 4000 lineup. 
+&lt;br /&gt;
+&lt;br /&gt;
+The speaker already came with a small LCD with a single push-rotary knob, allowing the user to utilize some of the functionality built into the hardware, so our mission was to build a mobile touch interface that would allow the customer to dig deeper into the hardware functionality via bluetooth, providing ability to walk around a venue freely and tune the speakers for any given location of the room, by the comfort of the customer’s iPhone or iPad.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+The project manager provided a rough mockup of the main screen and a detailed written spec describing the remaining feature set. My role was to:
+&lt;/p&gt;
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;- design the UX of the remaining feature set,&lt;/li&gt;&lt;li&gt;- update the living specification with any changes,&lt;/li&gt;&lt;li&gt;- convert the mockups into full fidelity screens,&lt;/li&gt;&lt;li&gt;- design the app icon &amp;amp; splash screen,&lt;/li&gt;&lt;li&gt;- establish a design system,&lt;/li&gt;&lt;li&gt;- handoff to development,&lt;/li&gt;&lt;li&gt;- manage development &amp;amp; QA though deployment,&lt;/li&gt;&lt;li&gt;- maintain the app quality through the life of the product&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Wireframes&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The first initial wireframe was provided by the Project manager. It was my task to find any improvements, determine how the user will get from feature to feature, then convert to Full fidelity design while maintaining the branding of the Harbinger brand.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/vari/OriginalWireframe.png&quot; alt=&quot;Vari4000&quot; /&gt;&lt;/p&gt;
+
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;I suggested the following imporvements to the existing wireframes:&lt;/li&gt;&lt;li&gt;- Expand the Channel band (the band with the giant &quot;1&quot; in the image) with an animated reaction when pressed, as progressive disclosure of extra functionality to minimize the main screen UI.&lt;/li&gt;&lt;li&gt;- Any buttons with 3 or more options will open a hovering modal, so the user never 	strays away from the main screen.&lt;/li&gt;&lt;li&gt;- Any button with 2 options will be a simple toggle, to minimize Development.&lt;/li&gt;&lt;li&gt;- Tools will be the only panel that leaves the actual Main Page because the Tools is not related to the current setup.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;User Journey&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+I mapped out the users’ steps to see how I could simplify their journey to help them instantly reach the most important features of the product, and return to the main page as quickly as possible. Everything must center around the main page. It should take no more than one button to get back to the main page.
+&lt;br /&gt;&lt;br /&gt;
+One major problem arose, we originally specified that the save functionality would work like a traditional Overwrite file functionality in a traditional OS. However after receiving the first beta firmware version for the hardware, we quickly learned that the save functionality was not traditionally written in the firmware OS. Instead, each time the user wants to save, they had to save the current working memory into a slot. So I had to go back and redesign the save functionality midway through the beta stage. 
+&lt;br /&gt;&lt;br /&gt;
+The solution was to provide the user the option to choose a slot before saving, after selecting a slot the user is provided the option to rename before saving. The lesson learned in this situation is to clarify the firmware specification for important OS functionality (like saving files), before entering the alpha stage.
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/vari/HarbingerFlowmap.png&quot; alt=&quot;Vari4000&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;UI Design&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Since the app will mostly be used in dark environments, I decided to stick with a dark theme and only use color where necessary. In order to highlight the most important areas of the UI, and make them stand out in the dark environment, I limited color to only represent a selected state and added color to the area that provides the most information, the EQ graph. I decided to use a blue&amp;gt;red gradient that shows red when the EQ is boosted (to convey risk), and blue where the EQ is lowered (to convey safety). Any tappable/unselected button will remain white.
+&lt;br /&gt;&lt;br /&gt;
+It took several iterations of color pallets. I provided several options to run by the marketing department, ultimately we settled with blue as it matched this new VARI 4000 model’s branding.
+&lt;br /&gt;&lt;br /&gt;
+To achieve a unique look, we custom designed the main page, but to save cost on development, we used traditional iOS elements to fulfill the remaining UI, such as the Tools page and the save/load routine.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/vari/VariClayDark.png&quot; alt=&quot;Vari4000&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Results &amp;amp; Retrospective&lt;/h3&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+I found working with the project manager at Guitar Center to be an enlightening experience. I was often challenged with new suggestions to improve the design, many of these being post-design-handoff and during development. So my role was to determine how we could modify the design with minimum development scope-creep. 
+&lt;br /&gt;&lt;br /&gt;
+In my earlier design days, my initial instincts would typically be to say, “no, its too late”, but I learned a much more valuable response strategy, and that is to at least prototype the change request, and test with my own eyes to see if the improvement is valuable enough. Often times I could find a solution with minimum development change. 
+&lt;br /&gt;&lt;br /&gt;
+For example, I was asked if I could create a signal strength meter for the bluetooth signal, just weeks before deployment. I checked with the developer, and found that the signal strength data is easily available. So then I took an existing Icon that already had several “signal bands” built into the design, and now we utilize that icon as the signal strength meter, along with its original functionality as the bluetooth disconnect button. It took minimal effort from development, and didn’t require any change to the UI layout.
+&lt;br /&gt;&lt;br /&gt;
+Throughout the project there was an overwhelming responsibility to get the user experience right for our customer. Our customer is typically in a high stress situation, where music is being played live, any disruptions in the sound could be a showstopper. I maintained constant user testing during alpha &amp;amp; beta stages, and with the help of our external QA team, we managed to weed out all the UX bottlenecks and bugs before launch.
+
+We currently maintain a 5 star review status in the App Store!
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/vari/Group.png&quot; alt=&quot;Vari4000&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot; https://apps.apple.com/us/app/vari-4000/id1487760265 &quot; class=&quot;centerbutton&quot;&gt; ...Check out the VARI 4000 App in the AppStore&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/vari</link>
+        <guid isPermaLink="true">http://localhost:4000/vari</guid>
+        
+        
+        <category>ipadLandscape</category>
+        
+      </item>
+    
+      <item>
+        <title>Taliware</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+UX/UI/Graphic/Logo/Branding
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/Taliware-Splash-Anamation-Demo-(Converted).gif&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Taliware is a unique opportunity to solve an age old problem, to provide living proof of your whereabouts with bio-authentication. The client provided me with a few mockups for the first MVP, and challenged me to improve upon existing mockups over the next day.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/taliware-1.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Quick Mockup &amp;amp; Initial Feedback&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+I spent the next day improving the initial mockups by determining UX pain-points and modernizing the UI. I provided the following feedback back to the client.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/Initial Feedback.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;UX Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The key to good UX is subtractive design, by placing each step into its own screen, then find and remove screens where steps can be combined. This is the equivalent of throwing all the puzzle pieces on the table to see how much work you have ahead of you. This is typically done with kanban boards or Post-it notes, but for the brevity of this project, I chose to begin drawing screens immediately and begin designing reusable components while designing the user flow at the same time. This way the screens are already created in Sketch, and allows me to iterate and improve on existing components as I design.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/Taliware_Flowmap.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Branding Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-center&quot;&gt;
+We needed to convey a serious tone with the product, as our users will most likely be working lawyers and government officials. Upon research, we found that orange with the dark background conveyed the seriousness of the product. 
+For the logo, I wanted to relate the “T” of “Taliware” with the Pin Point of the user that appears on the map.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/Life_of_a_Logo.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Key Take-aways&lt;/h3&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+This was the first time I worked with Authentication. Apple keeps the user from modifying the UI during authentication, so I was limited. I focused on making the most important data visible while the authentication dialog was visible.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/KeyTakeaways.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+This was also my first time working with map frameworks. I found Mapbox to be the best tool for maximum design freedom, and had similar pricing as Google. I decided to remain locked in 2D mode to keep costs low for MVP, although I would love to get deeper into 3D map functionality for future design.
+&lt;br /&gt;&lt;br /&gt;
+Overall, Taliware became a much larger project than both the client and I expected. There was a battle between making all the features beautiful and getting the product to MVP. The client also opted to go without a written design specification to save on costs, I warned against that strategy, however the development team did an outstanding job of converting my designs into code with minimal clarification.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/taliware/taliware_presentation.png&quot; alt=&quot;Taliware&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot; https://apps.apple.com/us/app/taliware/id1028856246 &quot; class=&quot;centerbutton&quot;&gt; ...Check out the Taliware App in the AppStore&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2020 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/Taliware</link>
+        <guid isPermaLink="true">http://localhost:4000/Taliware</guid>
+        
+        
+        <category>iphone</category>
+        
+      </item>
+    
+      <item>
+        <title>Williams Piano, by Guitar Center</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+Full Package: UX/UI/Graphic/Logo/Interaction Design - Animation Prototyping - Development - Quality Assurance - Project Management
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/williamspianoapp/comp_parameters.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+As ongoing commitment to provide Guitar Center with mobile apps to accompany thier Private Brand Hardware, they proposed a challenge to create a mobile touch interface to accompany their Piano hardware. The goal was to extend the user interface from hardware to mobile device, by providing a sleek but simple interface for the novice Piano player market.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/williamspianoapp/comp_sounds.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Our design solution was first to keep the navigation framework iOS friendly, as the user-base could be all ages, we didn’t want to confuse the average use with any non-traditional navigation style. Second, to provide a classic aesthetic for the piano-player target market.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/williamspianoapp/comp_recorder.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+Third, to keep the UI as minimal as possible, as not to scare novice users away from intimidating user interfaces. Then to provide simple learning tools for beginning piano players.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/williamspianoapp/comp_jam.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Results&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The Williams Piano app maintains a user base of 1.6k monthly active users, with a 4.4 star rating. See the app for yourself on the app store.
+&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot; https://apps.apple.com/us/app/williams-piano/id1448456673 &quot; class=&quot;centerbutton&quot;&gt; ...Check out the Williams Piano App in the AppStore&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/williamspianoapp</link>
+        <guid isPermaLink="true">http://localhost:4000/williamspianoapp</guid>
+        
+        
+        <category>iphone</category>
+        
+      </item>
+    
+      <item>
+        <title>Simmons Drums App, By Guitar Center</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+Full Package: UX/UI/Graphic/Logo/Interaction Design - Animation Prototyping - Development - Quality Assurance - Project Management
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/guitarcenterapp/teaching2.jpg&quot; alt=&quot;SimmonsDrumsApp&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Guitar Center proposed a challenge to create a mobile touch interface to accompany their hardware. The goal was to create a second layer of interaction, by utilizing the extra computation speed of the mobile device to add more play-ability with the hardware and improve on the existing Hardware interface by taking advantage of the touch interface.
+&lt;/p&gt;
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/guitarcenterapp/animation2.gif&quot; alt=&quot;SimmonsDrumsApp&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Our solution for the touch interface was to ensure that the most important controls were always available and visible to the user within a single swipe, while still displaying access to the extra features so as not to be lost within the app. We also took advantage of the computing power by designing a teaching tool for the user to learn how to play drums. This provided that extra layer of functionality to the existing hardware.
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/guitarcenterapp/gc4.jpg&quot; alt=&quot;SimmonsDrumsApp&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Results&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+So far, we are receiving great feedback from Guitar Center. The app was released in July 2017, The first app was released in July 2017, with several more Apps now released for Guitar Canter, and maintain a monthly user base of 2,600 users!
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/guitarcenterapp/gc3.png&quot; alt=&quot;SimmonsDrumsApp&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot; https://itunes.apple.com/us/app/simmons-drums-basic-drum-editor-teaching-tool/id1236886060 &quot; class=&quot;centerbutton&quot;&gt; ...Check out the Simmons App on the App Store &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Jan 2017 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/guitarcenterapp</link>
+        <guid isPermaLink="true">http://localhost:4000/guitarcenterapp</guid>
+        
+        
+        <category>ipadLandscape</category>
+        
+      </item>
+    
+      <item>
+        <title>MyMelo</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+UI/UX/Graphic Design - Branding
+&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+I was approached by a unique startup that was in the need of branding and a full web system design. The challenge for branding was to maintain a modern web presence that focused on Music Lovers and Radio Listeners, while maintaining a look of a leading music technology group.
+The challenge for the web design was to re-engage radio station site visitors, and completely re-imagine the purpose of visiting a radio station website.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/mymelo/mymelo-1.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Branding Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+I was given full creative reign for the Logo creation, this allowed for unhindered imagination. We went back and fourth on Font Type and once the type was chosen, it was time to work on the logo’s icon. And something magical happened… Allow me to introduce, The Melo Monster!! The mascot of MyMelo. This monster was born in a Franeknstien-esque fashion, everything came together rather naturally. I combined the middle ‘M’ with the traditional Radio Boombox, but once I added the dials for eyes, and a tuning bar for a tooth, he came to life!! I topped him off with a Widows Peak and the Monster really came out in him. The Melo Monster works great for every situation! He even gives the company speeches!
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/mymelo/mymelo-2.jpg&quot; alt=&quot;MyMelo&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Web Design Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The primary goal was to focus on the music first, so I placed only the live-song info in the center of the screen and decided to leave everything else below the fold. The next goal was to exhibit the station branding and local identity, so I chose a background image that was minimal but familiar, as not to take up too much focus, but would still provide familiarity with the city, without having to focus your eyes onto the image.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/mymelo/mymelo-5.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+The third priority was to keep the user engaged. So I designed a music explorer tool that would allow the user to dig deep into the music archive.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/mymelo/mymelo-6.png&quot; alt=&quot;MyMelo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/mymelo/mymelo-3.jpg&quot; alt=&quot;MyMelo&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Results&lt;/h3&gt;
+&lt;div class=&quot;footnote&quot;&gt;
+&lt;p&gt;“William is an extremely talented, focused, creative and disciplined designer. His approach utilizes the best practices and processes that are industry standards, yet he does not let those protocols throttle his creativity and delivery!” &lt;strong&gt;-Xan Alexander  MyMelo CEO&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;MyMelo has been featured on multiple articles. We have launched our platform onto 200 stations, reaching over 600k visitors.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot; http://mymelo.com &quot; class=&quot;centerbutton&quot;&gt; ...Learn More About MyMelo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Nov 2016 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/mymelo</link>
+        <guid isPermaLink="true">http://localhost:4000/mymelo</guid>
+        
+        
+        <category>desktop</category>
+        
+      </item>
+    
+      <item>
+        <title>Applaud</title>
+        <description>&lt;p class=&quot;content__item-center&quot;&gt;
+UI/UX/Graphic/Logo Design - Project Management - Branding/Marketing
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/applaud/applaud-1.png&quot; alt=&quot;Applaud for iPhone&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;The Challenge&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+Appluad was my very first solo design project. What started in 2011 led me to the path I am on today. The goal was to provide a system that allowed people in an audience to discover and purchase music played in a public space via a DJ, Band, or any Performing Artist. Fans should be able to view nearby event information and information about the music currently playing at that event. The track information will always be correct, because the artist is connected to the system too!
+The biggest Design Challenge was to give the user the most important information first, then make the process as swift and painless as possible.
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/applaud/applaud-2.jpeg&quot; alt=&quot;Applaud for iPhone&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Solution&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+My main goal was to show the Exact Title and Artist of the song the Band or DJ is currently playing immediately! So the first step was to simplify the screen space by only providing the most important info first, then allow the user to explore the app second. I provided a great big button in the center of the screen, that was all about the current song playing.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/applaud/applaud-3.png&quot; alt=&quot;Applaud for iPhone&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+I sectioned the screen into three separate parts: The Event, the Current Song, and the Past Songs. Users can explore, instantly save songs onto their music library, then play songs later, reminding the user of that moment they heard the song for the first time.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/applaud/applaud-4.png&quot; alt=&quot;Applaud for iPhone&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The system is also connected to an online music store! We allow any artist to upload their music to our store. This way artists can finish making a song in the evening and begin selling it at their gig by night. They can even spread the new song to other DJs to play that night. Fans have the option to purchase the music being played. They can purchase the track from our store or search for the track in Spotify, Soundcloud, iTunes, or other online stores.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/applaud/applaud-5.png&quot; alt=&quot;Applaud for iPhone&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+The user can find live events closest to them, discover upcoming events near them, see track-lists of past events. They can also search to see where else tracks have been played, find out what Djs are playing their favorite tracks, or find out where their favorite artist are playing next.
+&lt;/p&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/applaud/applaud-6.jpg&quot; alt=&quot;Applaud for iPhone&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;p class=&quot;content__item-left&quot;&gt;
+Artists get rewarded for every sale made through Applaud. If a performing artist (or DJ) creates a successful transaction as a result of their performance, then we link the transaction or affiliate-link-press to the performing artist (or DJ). The original artist receives maximum royalties, and the performing artist is then given a commission or virtual credit as incentive for creating the sale and playing great music.
+&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/applaud/applaud-7.png&quot; alt=&quot;Applaud for iPhone&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Results&lt;/h3&gt;
+&lt;p&gt;We launched a fully functioning prototype to a test market and received great feedback. Unfortunately the cost to develop the entire system was far greater than our funding would allow. Overall, it was a great learning experience that paved the way for my design career. :)&lt;/p&gt;
+&lt;h3 id=&quot;section_title&quot;&gt;Ready to take the next step?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot; /action &quot;&gt;&lt;img class=&quot;content__item-img-center&quot; src=&quot;/images/action.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2012 04:32:24 -0800</pubDate>
+        <link>http://localhost:4000/applaud</link>
+        <guid isPermaLink="true">http://localhost:4000/applaud</guid>
+        
+        
+        <category>iphone</category>
+        
+      </item>
+    
+      <item>
+        <title>Let's Talk!</title>
+        <description>&lt;h3 id=&quot;section_title&quot;&gt;What I bring to the table&lt;/h3&gt;
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;I will bring your Web or Mobile app idea to life.&lt;/li&gt;&lt;li&gt;I will integrate your new features onto your existing app.&lt;/li&gt;&lt;li&gt;I will evaluate your current app's pain-points, and improve your existing user-flow and design.&lt;/li&gt;&lt;li&gt;I will research your customer base, understand your company's vision, so we can create a striking new branding strategy for you.&lt;/li&gt;&lt;li&gt;I will design and implement your business goals with a CEO mentality, with the end-user at the forefront.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;[[[[  &lt;img class=&quot;content__item-img-fill-width animated zoomIn&quot; src=&quot;/images/action/image3.jpg&quot; alt=&quot;action&quot; /&gt; ]]]]&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Services&lt;/h3&gt;
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;Logo &amp;amp; Branding design&lt;/li&gt;&lt;li&gt;User-flow mapping, Wire-framing &amp;amp; Rapid prototyping (UX)&lt;/li&gt;&lt;li&gt;Hi-Fidelity Graphic Design with &quot;code-ready&quot; design specification (UI)&lt;/li&gt;&lt;li&gt;Interaction design &amp;amp; fully animated prototyping and presentation&lt;/li&gt;&lt;li&gt;Fully managed product design, development, testing, and deployment&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/action/responsiveMockupsWHD.png&quot; alt=&quot;action&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Industry Experience&lt;/h3&gt;
+&lt;ul class=&quot;meeru_features&quot;&gt;&lt;li&gt;Proud team member of Apple's 2013 iPad App of the Year Recipient, Traktor DJ&lt;/li&gt;&lt;li&gt;Over a decade of Pro Audio Software, Mobile, and Hardware experience, reaching over 50 million users with 4.5 star ratings&lt;/li&gt;&lt;li&gt;7 Years Digital Radio &amp;amp; Streaming Experience&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/action/image4.png&quot; alt=&quot;action&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Testimonials&lt;/h3&gt;
+&lt;div class=&quot;footnote&quot;&gt;
+&lt;p&gt;“William is an extremely talented, focused, creative and disciplined designer. His approach utilizes the best practices and processes that are industry standards, yet he does not let those protocols throttle his creativity and delivery!” &lt;strong&gt;-Xan Alexander - MyMelo CEO&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“…William is the consummate professional. If he says he’ll have it for you tomorrow at 2:00 it’ll be ready. No games, straight up pricing, 110% over-delivery. This is so rare for someone as artistic as William to have such a strong grasp of what most businesses crave from artistic individuals - professionalism and the ability to deliver. Absolutely stunning results and I’ll be trying to stay on William’s calendar well into the future.”  &lt;strong&gt;-Jay Everingham - Founder Fancliq&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img class=&quot;content__item-img-center animated zoomIn&quot; src=&quot;/images/action/TinderImageX.png&quot; alt=&quot;action&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section_title&quot;&gt;Let's Talk!&lt;/h3&gt;
+&lt;p class=&quot;content__item-left&quot;&gt;
+My goal is chiefly on helping you succeed. Not just building you an app or website, but helping you build it the right way from the ground up. &lt;strong&gt;All of my services include guaranteed support after my work has been handed off, to ensure the project remains on a path of the highest quality.&lt;/strong&gt;
+Let’s get started on a plan of attack! Please provide your information to the Chatbot below, and I will be in contact with you shortly.
+&lt;/p&gt;
+
+&lt;script src=&quot;https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;landbot-1570399458560&quot; style=&quot;width: 100%; height: 700px&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+  var myLandbotFrame = new LandbotFrameWidget({
+    container: '#landbot-1570399458560',
+    index: 'https://landbot.io/u/H-93884-UP17PQ7TIDPICM3O/index.html',
+  });
+&lt;/script&gt;
+
+&lt;!-- &lt;form action=&quot;https://www.getdrip.com/forms/20013223/submissions&quot; method=&quot;post&quot; data-drip-embedded-form=&quot;20013223&quot;&gt;
+  &lt;p&gt;
+    &lt;div align=&quot;center&quot;&gt;
+    &lt;div&gt;
+        &lt;label align=&quot;left&quot; for=&quot;fields[name]&quot;&gt;Name&lt;/label&gt;&lt;br /&gt;
+        &lt;input type=&quot;text&quot; name=&quot;fields[name]&quot; value=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;label for=&quot;fields[email]&quot;&gt;Email Address&lt;/label&gt;&lt;br /&gt;
+        &lt;input align=&quot;center&quot; type=&quot;email&quot; name=&quot;fields[email]&quot; value=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;label for=&quot;fields[phone]&quot;&gt;Phone&lt;/label&gt;&lt;br /&gt;
+        &lt;input align=&quot;center&quot; type=&quot;tel&quot; name=&quot;fields[phone]&quot; value=&quot;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;br/&gt;
+    &lt;div class=&quot;g-recaptcha&quot; data-sitekey=&quot;6LcUSB0UAAAAALlAcmDylZ7ny1Y5cZ4qxlDTHwYQ&quot; data-theme=&quot;dark&quot; data-size=&quot;compact&quot; align=&quot;center&quot;&gt;&lt;/div&gt;
+    &lt;br/&gt;
+  &lt;div align=&quot;center&quot;&gt;
+    &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Contact Me&quot; data-drip-attribute=&quot;sign-up-button&quot; /&gt;
+  &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/p&gt;
+&lt;/form&gt; --&gt;
+</description>
+        <pubDate>Thu, 13 Jan 2011 01:32:24 -0800</pubDate>
+        <link>http://localhost:4000/action</link>
+        <guid isPermaLink="true">http://localhost:4000/action</guid>
+        
+        
+        <category>iphone</category>
+        
+      </item>
+    
+  </channel>
+</rss>
